@@ -4,11 +4,29 @@ Project scaffold for supply chain demand forecasting.
 
 ## Layout
 
-- data/raw/ for source data such as ecommerce_sales.csv
-- data/processed/ for cleaned datasets
-- data/external/ for downloaded or third-party inputs
-- notebooks/ for exploratory analysis
-- src/preprocessing/, src/utils/, and src/config/ for reusable code
-- models/ for trained artifacts
-- reports/ for outputs and summaries
-- main.py as the project entry point
+```text
+SupplyChainDemandForecasting/
+│
+├── data/
+│   ├── raw/
+│   │   └── enterprise_supply_chain_dataset_india_2023_2025.xlsx
+│   ├── processed/
+│   └── external/
+│
+├── notebooks/
+│   └── 01_data_understanding.ipynb
+│
+├── src/
+│   ├── preprocessing/
+│   ├── utils/
+│   └── config/
+│
+├── reports/
+│   └── figures/
+│
+├── models/
+│
+├── requirements.txt
+├── README.md
+└── main.py
+```
