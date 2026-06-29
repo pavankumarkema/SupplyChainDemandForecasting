@@ -1,0 +1,9 @@
+Model,MAE,RMSE,MAPE,R2 Score
+XGBoost,1.0048,1.6022,1.95,0.9951
+Extra Trees,1.2066,1.7538,2.45,0.9941
+Random Forest,1.3215,2.1659,2.38,0.991
+Gradient Boosting,2.4946,3.299,5.12,0.9791
+Decision Tree,2.435,3.8965,4.36,0.9709
+Lasso Regression,3.0388,3.9875,6.27,0.9695
+Linear Regression,3.0646,3.9973,6.34,0.9694
+Ridge Regression,3.0614,4.0001,6.33,0.9693
