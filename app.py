@@ -223,7 +223,7 @@ YES_NO = ["No", "Yes"]
 # =============================================================================
 
 with st.sidebar:
-    st.title("📦 Navigation")
+    st.title("📦 Supply Chain Demand Forecasting")
     st.markdown("---")
 
     selected_page = st.radio(
